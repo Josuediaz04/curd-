@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BfWmUa47YaiZ9Ns6CZnuROba+uFaLsqkAYvc7cuPV4w=",
+  "Source": "SysInventarioBack.API",
+  "BasePath": "_content/SysInventarioBack.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

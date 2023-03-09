@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SysInventarioBack.AccesoADatos/1.0.0": {
+        "dependencies": {
+          "SysInventarioBack.EntidadesDeNegocio": "1.0.0"
+        },
+        "runtime": {
+          "SysInventarioBack.AccesoADatos.dll": {}
+        }
+      },
+      "SysInventarioBack.EntidadesDeNegocio/1.0.0": {
+        "runtime": {
+          "SysInventarioBack.EntidadesDeNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SysInventarioBack.AccesoADatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysInventarioBack.EntidadesDeNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
