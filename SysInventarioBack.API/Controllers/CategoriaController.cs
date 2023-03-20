@@ -14,7 +14,14 @@ namespace SysInventarioBack.API.Controllers
 
         public ActionResult<int> AgregarCategoria(Categoria pCategoria)
         {
-            return objCategoriaBL.AgregarCategoria(ListaCategorias, pCategoria);
+            if (ModelState.IsValid)
+            {
+                return objCategoriaBL.AgregarCategoria(ListaCategorias, pCategoria);
+            }else
+            {
+                return 409;
+            }
+            
         }
 
         [HttpGet("MostrarCategoria")]
@@ -28,7 +35,15 @@ namespace SysInventarioBack.API.Controllers
 
         public ActionResult<int> ModificarCategoria(int id, Categoria pCategoria) 
         {
-            return objCategoriaBL.ModificarCategoria(ListaCategorias, id, pCategoria);
+            if (ModelState.IsValid)
+            {
+                return objCategoriaBL.ModificarCategoria(ListaCategorias, id, pCategoria);
+            }
+            else
+            {
+                return 409;
+            }
+            
         }
 
         [HttpDelete("EliminarCategoria")]

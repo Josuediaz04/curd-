@@ -24,6 +24,7 @@ namespace SysInventarioBack.AccesoADatos
                 {
                     CategoriaBuscada.IdCategoria = pCategoria.IdCategoria;
                     CategoriaBuscada.Nombre = pCategoria.Nombre;
+                    CategoriaBuscada.Descripcion = pCategoria.Descripcion;  
                     return 1;
                 }
                 else
